@@ -34,7 +34,7 @@
       size -= 1;
     }
 
-  result.push(level[level.length - 1]);
+  result.push(level.at(-1));
 }
 
   return result;
