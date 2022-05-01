@@ -28,7 +28,7 @@
   const leaves1 = findLeaves(root1);
   const leaves2 = findLeaves(root2);
 
-  return leaves1.length === leaves2.length && leaves1.every((value, i)=> value === leaves2[i]) ;
+  return leaves1.length === leaves2.length && leaves1.every((value, i) => value === leaves2[i]);
 };
 
 // tried short cut, perhaps need to use yield?
