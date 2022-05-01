@@ -17,7 +17,7 @@
   const findLeaves = function (node, leaves = []) {
     if (node) {
       if (!node.left && !node.right) leaves.push(node.val);
-      
+
       findLeaves(node.left, leaves);
       findLeaves(node.right, leaves);
     }
@@ -30,10 +30,6 @@
 
   return leaves1.length === leaves2.length && leaves1.every((value, i)=> value === leaves2[i]) ;
 };
-
-
-
-
 
 // tried short cut, perhaps need to use yield?
 // let leafSimilar = function (root1, root2) {
