@@ -8,7 +8,7 @@
   let storage = [0, 1, 2];
 
   for (let i = 3; i <= n; i++) {
-    storage[i] = storage[i-1] + storage[i-2];
+    storage[i] = storage[i - 1] + storage[i - 2];
   }
 
   return storage[n];
