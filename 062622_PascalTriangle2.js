@@ -4,7 +4,7 @@
  */
 
 var getRow = function(rowIndex) {
-  let storage = [1];
+  let storage = [];
 
   for (i = 0; i <= rowIndex; i++) {
     storage.unshift(1);
